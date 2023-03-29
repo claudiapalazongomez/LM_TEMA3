@@ -1,0 +1,21 @@
+/*HEADER AND NAV*/
+.active{
+    background-color: rgb(126, 126, 126);
+}
+
+.transition {
+    opacity: 0.7;
+}
+.transition:hover{
+    opacity: 1;
+}
+
+/*GIF*/
+body{
+    background-image: url('../media/dance.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+}

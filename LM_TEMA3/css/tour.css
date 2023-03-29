@@ -1,0 +1,132 @@
+/*NAV*/
+.active{
+    background-color: rgb(126, 126, 126);
+}
+
+.nav-menu{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*ARTICLE*/
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 60px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+
+.table-header, .table-row {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.table-header {
+    background-color: #a4a5a5;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.table-row {
+    background-color: #fff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+}
+
+.sites {
+    font-weight: bold;
+}
+
+#bold-col{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#date-col{
+    color: blueviolet;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.col-1 { 
+    flex-basis: 10%; /*sets the initial main size of a flex item*/
+}
+
+.col-2 {
+    flex-basis: 30%;
+}
+
+.col-3,
+.col-4 {
+    flex-basis: 30%;
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.col-4 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.col-4 a:hover{
+    color: blueviolet;
+}
+
+/*FOOTER*/
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #333;
+}
+  
+.footer-dark .item.social {
+    text-align: center;
+}
+  
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+  
+.footer-dark .item.social > a:hover {
+    opacity: 0.9;
+}
+  
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
